@@ -15,6 +15,11 @@ namespace CaesarCipher
         public int pass { get; set; }
 
 
+        public EncriptDecript(){
+            commondword = "SENHA";
+        }
+        
+
         public string EncriptWord()
         {
             //Initiliaze the common variables
