@@ -18,6 +18,7 @@ namespace CaesarCipher
         public string EncriptWord()
         {
             //Initiliaze the common variables
+            //new add
             _dictionary = _dictionary.ToUpper();
             string[] words = _dictionary.Split('|');
             string[] arraycommonword = new string[commonword.Length];
