@@ -13,16 +13,12 @@ namespace CaesarCipher
         public string commonword { get; set; }
         public string newword { get; set; }
         public int pass { get; set; }
-
-
-        public EncriptDecript(){
-            commondword = "SENHA";
-        }
         
 
         public string EncriptWord()
         {
             //Initiliaze the common variables
+            _dictionary = _dictionary.ToUpper();
             string[] words = _dictionary.Split('|');
             string[] arraycommonword = new string[commonword.Length];
             string encriptword = "";
