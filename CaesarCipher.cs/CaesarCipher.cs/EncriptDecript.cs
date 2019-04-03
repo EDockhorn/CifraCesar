@@ -13,6 +13,10 @@ namespace CaesarCipher
         public string commonword { get; set; }
         public string newword { get; set; }
         public int pass { get; set; }
+
+        public EncriptDecript(){
+            
+        }
         
 
         public string EncriptWord()
