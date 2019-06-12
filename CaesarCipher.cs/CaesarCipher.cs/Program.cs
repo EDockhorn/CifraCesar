@@ -11,7 +11,7 @@ namespace CaesarCipher.cs
 
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Teste COMMIT");
             EncriptDecript encrypt = new EncriptDecript();
             Console.WriteLine("ENTER WITH YOURE PASSCODE: ");
             encrypt.commonword = Console.ReadLine();
